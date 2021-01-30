@@ -4,7 +4,7 @@ class Paper {
         isStatic: false,
         'restitution':0.8,
         'friction':0.5,
-        'density':0.2
+        'density':0.3
       }
       this.body = Bodies.circle(x, y, radius, options);
       this.radius = radius
